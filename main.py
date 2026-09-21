@@ -11,10 +11,10 @@ def palindrome(array):
 
 
 # array = ['M', 'A', 'L', 'A', 'M']
-# array_2 = ['B', 'U', 'K', 'U']
-# array_3 = ['R', 'A', 'D', 'A', 'R']
+array_2 = ['B', 'U', 'K', 'U']
+array_3 = ['R', 'A', 'D', 'A', 'R']
 array = input("Use a space to enter a word.\nYour input -> ")
 array.split()
+print(palindrome(array_2))
+print(palindrome(array_3))
 print(palindrome(array))
-# print(palindrome(array_2))
-# print(palindrome(array_3))
